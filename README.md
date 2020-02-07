@@ -7,4 +7,4 @@ A Monte-Carlo based Sudoku solver
 
 ## Usage
 - Run sudoku.py with the sudoku board of choice as command line argument
-- New sudoku can be added as tex files containing 9 items per line. Numbers will be parsed, blank squares are marked by an '.'
+- New sudoku can be added as text files containing 9 items per line. Numbers will be parsed, blank squares are marked by an '.'
