@@ -2,6 +2,7 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 import sys
+import time
 
 
 class board:
@@ -121,6 +122,7 @@ if __name__ == '__main__':
     b.score()
     mc = MC(b, initialT=10, finalT=0.1, steps=1e6)
     mc.run()
+    print('Time to solve: {:.2f} s'.format(time.process_time()))
     plt.figure(1)
     plt.plot(list(range(len(mc.T))), mc.T)
     plt.figure(2)
